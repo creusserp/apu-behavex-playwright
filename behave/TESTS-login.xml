@@ -1,63 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time="42.5783896446228" tests='2' skipped='0'
-name="Login" failures='1' errors='0'><testcase time="32.55420446395874" name="I_Can_Login_Into_The_Tools_Qa_Page_With_An_Existing_User_And_Correct_Password" status="failed"
-         classname="Login"><failure type="Timeouterror" message='Page.goto: Timeout 30000ms exceeded.&#10;                Call log:&#10;                navigating to "https://demoqa.com/", waiting until "load"'>
-                        <![CDATA[ Failing step: given I open the Tools QA page ... Status.failed in 32.55s  Location:Featureslogin.Feature
-                         File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/behave/model.py", line 1329, in run
-    match.run(runner.context)
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/behave/matchers.py", line 98, in run
-    self.func(context, *args, **kwargs)
-
-                  File "features/steps/common_steps.py", line 32, in open_main_page
-    context.page.goto(app_url)
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
-    self._sync(
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
-    return task.result()
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/playwright/_impl/_page.py", line 553, in goto
-    return await self._main_frame.goto(**locals_to_params(locals()))
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 145, in goto
-    await self._channel.send("goto", locals_to_params(locals()))
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
-    return await self._connection.wrap_api_call(
-
-                  File "/home/runner/.local/share/virtualenvs/apu-behavex-playwright-zqdrTHzK/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
-    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
-                        ]]>
-                    </failure><system-out>
+<testsuite time="38.50710415840149" tests='2' skipped='0'
+name="Login" failures='0' errors='0'><testcase time="13.765092134475708" name="I_Can_Login_Into_The_Tools_Qa_Page_With_An_Existing_User_And_Correct_Password" status="passed"
+         classname="Login"><system-out>
             <![CDATA[
             @scenario.begin
                 
                 scenario: I can login into the Tools QA page with an existing user and correct password
-                given I open the Tools QA page ... Status.failed in 32.55s 
-                when I complete the user name field with testing user name ... Status.skipped in 0.0s 
-                when I complete the password field with testing user password ... Status.skipped in 0.0s 
-                when I click the Login button ... Status.skipped in 0.0s 
-                then I see the "profile" page is displayed ... Status.skipped in 0.0s 
-                then I see the user name is displayed in the page ... Status.skipped in 0.0s 
+                given I open the Tools QA page ... Status.passed in 11.81s 
+                when I complete the user name field with testing user name ... Status.passed in 0.09194s 
+                when I complete the password field with testing user password ... Status.passed in 0.01243s 
+                when I click the Login button ... Status.passed in 1.846s 
+                then I see the "profile" page is displayed ... Status.passed in 0.0001788s 
+                then I see the user name is displayed in the page ... Status.passed in 0.005926s 
 @scenario.end
             ----------------------------------------------------------------------------------------------------
             ]]>
             </system-out>
-        </testcase><testcase time="10.024185180664062" name="After_Login_I_Can_See_The_Elements_Menu_And_Click_On_Text_Box_Option" status="passed"
+        </testcase><testcase time="24.74201202392578" name="After_Login_I_Can_See_The_Elements_Menu_And_Click_On_Text_Box_Option" status="passed"
          classname="Login"><system-out>
             <![CDATA[
             @scenario.begin
                 
                 scenario: After login I can see the "Elements" menu and click on "Text Box" option
-                given I open the Tools QA page ... Status.passed in 8.449s 
-                when I complete the user name field with testing user name ... Status.passed in 0.05967s 
-                when I complete the password field with testing user password ... Status.passed in 0.04589s 
-                when I click the Login button ... Status.passed in 1.384s 
-                when I expand "Elements" menu ... Status.passed in 0.02812s 
-                when I click "Text Box" option ... Status.passed in 0.05665s 
-                then I see the "Text Box" page is displayed ... Status.passed in 0.0002558s 
+                given I open the Tools QA page ... Status.passed in 22.64s 
+                when I complete the user name field with testing user name ... Status.passed in 0.03716s 
+                when I complete the password field with testing user password ... Status.passed in 0.05526s 
+                when I click the Login button ... Status.passed in 1.918s 
+                when I expand "Elements" menu ... Status.passed in 0.03248s 
+                when I click "Text Box" option ... Status.passed in 0.05592s 
+                then I see the "Text Box" page is displayed ... Status.passed in 0.0002251s 
 @scenario.end
             ----------------------------------------------------------------------------------------------------
             ]]>

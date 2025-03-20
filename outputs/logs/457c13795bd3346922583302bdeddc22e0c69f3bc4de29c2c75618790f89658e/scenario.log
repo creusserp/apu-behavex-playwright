@@ -1,7 +1,18 @@
-﻿15:28:24 - INFO - ----------------------------------------
-15:28:24 - INFO - STEP: I open the Tools QA page
-15:28:26 - INFO - Browser size has been changed to 1400x900
-15:28:56 - ERROR - Page.goto: Timeout 30000ms exceeded.
-Call log:
-navigating to "https://demoqa.com/", waiting until "load"
-
+﻿15:57:35 - INFO - ----------------------------------------
+15:57:35 - INFO - STEP: I open the Tools QA page
+15:57:36 - INFO - Browser size has been changed to 1400x900
+15:57:47 - INFO - Login page opened
+15:57:47 - INFO - ----------------------------------------
+15:57:47 - INFO - STEP: I complete the user name field with testing user name
+15:57:47 - INFO - ----------------------------------------
+15:57:47 - INFO - STEP: I complete the password field with testing user password
+15:57:47 - INFO - ----------------------------------------
+15:57:47 - INFO - STEP: I click the Login button
+15:57:49 - INFO - Login page opened
+15:57:49 - INFO - ----------------------------------------
+15:57:49 - INFO - STEP: I see the "profile" page is displayed
+15:57:49 - INFO - Current url is the profile url
+15:57:49 - INFO - ----------------------------------------
+15:57:49 - INFO - STEP: I see the user name is displayed in the page
+15:57:49 - INFO - User name displayed: 'aframe'
+15:57:49 - INFO - User name is displayed in profile page
