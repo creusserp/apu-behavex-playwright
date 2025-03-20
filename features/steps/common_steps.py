@@ -28,7 +28,7 @@ def open_main_page(context):
     context.browser = browser
   
     app_url = get_app_url(context)
-
+    context.page.set_default_navigation_timeout(60000)  # Set navigation timeout to 60 seconds
     context.page.goto(app_url)
     context.current_page = LoginPage(context.page, app_url)
     context.current_page.open_tools_qa_login_page()
