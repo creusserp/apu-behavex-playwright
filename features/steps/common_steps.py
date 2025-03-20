@@ -52,6 +52,8 @@ def expand_menu_panel(context, element):
 @step(u'I click "{option}" option')
 def expand_menu_panel_option(context, option):
     """Expand the menu panel"""
+    # NOTE: This if statement currently handles only the "Text Box" option.
+    #Additional options can be added here in the future as needed.
     if option == 'Text Box':
         context.current_page.click_panel_menu_option(option)
 
