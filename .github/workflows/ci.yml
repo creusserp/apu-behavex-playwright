@@ -28,6 +28,10 @@ jobs:
       - name: Install dependencies
         run: |
           pipenv install --dev  # Install dependencies from Pipfile.lock
+
+      - name: Install playwright
+        run: |
+          pipenv run playwright install
    
       - name: Run tests in Chrome
         env:
