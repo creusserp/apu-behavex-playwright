@@ -1,0 +1,11 @@
+﻿15:24:59 - INFO - ----------------------------------------
+15:24:59 - INFO - STEP: I open the Tools QA page
+15:24:59 - ERROR - BrowserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/chromium-1140/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
