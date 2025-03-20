@@ -52,11 +52,6 @@ def before_all(context):
     bng_env.before_all(context)
     bxi_env.before_all(context)
 
-    # Setting default logging level for selenium for web based tests
-    #logger_name = 'selenium.webdriver.remote.remote_connection'
-    #selenium_logger = logging.getLogger(logger_name)
-    #selenium_logger.propagate = False
-    #selenium_logger.setLevel(logging.WARNING)
 
 def before_feature(context, feature):
     bng_env.before_feature(context, feature)
