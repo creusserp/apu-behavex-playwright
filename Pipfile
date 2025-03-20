@@ -25,7 +25,7 @@ behavex = "==4.1.0"
 behavex-images = {version="3.0.1", index="testpypi"}
 behaving= "==3.0.4"
 python-dotenv = "==0.19.1"
-playwright = "==1.51.0"
+playwright = "*"
 
 [dev-packages]
 
