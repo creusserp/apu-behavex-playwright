@@ -52,7 +52,7 @@ jobs:
           cp -r ../output/* .
           git add .
           git commit -m "Update test report"
-          git push origin gh-pages
+          git push origin gh-pages --force
       
       - name: Store Behave Test Results
         if: always()
