@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --global user.email "creusserp@gmail.com"
           git config --global user.name "creusserp"
-          git clone https://x-access-token:${GH_PAT}@github.com/creusserp/apu-frame.git gh-pages
+          git clone https://x-access-token:${GH_PAT}@github.com/creusserp/apu-behavex-playwright.git gh-pages
           cd gh-pages
           git checkout gh-pages || git checkout --orphan gh-pages
           cp -r ../output/* .
