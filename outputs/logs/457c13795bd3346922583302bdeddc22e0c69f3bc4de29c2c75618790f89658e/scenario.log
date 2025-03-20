@@ -1,11 +1,7 @@
-﻿15:24:58 - INFO - ----------------------------------------
-15:24:58 - INFO - STEP: I open the Tools QA page
-15:24:58 - ERROR - BrowserType.launch: Executable doesn't exist at /home/runner/.cache/ms-playwright/chromium-1140/chrome-linux/chrome
-╔════════════════════════════════════════════════════════════╗
-║ Looks like Playwright was just installed or updated.       ║
-║ Please run the following command to download new browsers: ║
-║                                                            ║
-║     playwright install                                     ║
-║                                                            ║
-║ <3 Playwright Team                                         ║
-╚════════════════════════════════════════════════════════════╝
+﻿15:28:24 - INFO - ----------------------------------------
+15:28:24 - INFO - STEP: I open the Tools QA page
+15:28:26 - INFO - Browser size has been changed to 1400x900
+15:28:56 - ERROR - Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://demoqa.com/", waiting until "load"
+

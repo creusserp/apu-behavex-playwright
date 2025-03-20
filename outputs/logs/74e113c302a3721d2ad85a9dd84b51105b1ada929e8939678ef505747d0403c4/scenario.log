@@ -1,5 +1,5 @@
-﻿15:24:59 - INFO - ----------------------------------------
-15:24:59 - INFO - STEP: I login to demoqa page through API
-15:25:00 - INFO - ----------------------------------------
-15:25:00 - INFO - STEP: I see the response contains the access token
-15:25:00 - INFO - Access token is present in the response
+﻿15:29:07 - INFO - ----------------------------------------
+15:29:07 - INFO - STEP: I login to demoqa page through API
+15:29:07 - INFO - ----------------------------------------
+15:29:07 - INFO - STEP: I see the response contains the access token
+15:29:07 - INFO - Access token is present in the response
