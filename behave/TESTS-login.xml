@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite time="38.50710415840149" tests='2' skipped='0'
-name="Login" failures='0' errors='0'><testcase time="13.765092134475708" name="I_Can_Login_Into_The_Tools_Qa_Page_With_An_Existing_User_And_Correct_Password" status="passed"
+<testsuite time="32.75646901130676" tests='2' skipped='0'
+name="Login" failures='0' errors='0'><testcase time="19.67460823059082" name="I_Can_Login_Into_The_Tools_Qa_Page_With_An_Existing_User_And_Correct_Password" status="passed"
          classname="Login"><system-out>
             <![CDATA[
             @scenario.begin
                 
                 scenario: I can login into the Tools QA page with an existing user and correct password
-                given I open the Tools QA page ... Status.passed in 11.81s 
-                when I complete the user name field with testing user name ... Status.passed in 0.09194s 
-                when I complete the password field with testing user password ... Status.passed in 0.01243s 
-                when I click the Login button ... Status.passed in 1.846s 
-                then I see the "profile" page is displayed ... Status.passed in 0.0001788s 
-                then I see the user name is displayed in the page ... Status.passed in 0.005926s 
+                given I open the Tools QA page ... Status.passed in 17.68s 
+                when I complete the user name field with testing user name ... Status.passed in 0.1205s 
+                when I complete the password field with testing user password ... Status.passed in 0.03664s 
+                when I click the Login button ... Status.passed in 1.834s 
+                then I see the "profile" page is displayed ... Status.passed in 0.0001798s 
+                then I see the user name is displayed in the page ... Status.passed in 0.005013s 
 @scenario.end
             ----------------------------------------------------------------------------------------------------
             ]]>
             </system-out>
-        </testcase><testcase time="24.74201202392578" name="After_Login_I_Can_See_The_Elements_Menu_And_Click_On_Text_Box_Option" status="passed"
+        </testcase><testcase time="13.081860780715942" name="After_Login_I_Can_See_The_Elements_Menu_And_Click_On_Text_Box_Option" status="passed"
          classname="Login"><system-out>
             <![CDATA[
             @scenario.begin
                 
                 scenario: After login I can see the "Elements" menu and click on "Text Box" option
-                given I open the Tools QA page ... Status.passed in 22.64s 
-                when I complete the user name field with testing user name ... Status.passed in 0.03716s 
-                when I complete the password field with testing user password ... Status.passed in 0.05526s 
-                when I click the Login button ... Status.passed in 1.918s 
-                when I expand "Elements" menu ... Status.passed in 0.03248s 
-                when I click "Text Box" option ... Status.passed in 0.05592s 
-                then I see the "Text Box" page is displayed ... Status.passed in 0.0002251s 
+                given I open the Tools QA page ... Status.passed in 11.55s 
+                when I complete the user name field with testing user name ... Status.passed in 0.03871s 
+                when I complete the password field with testing user password ... Status.passed in 0.02554s 
+                when I click the Login button ... Status.passed in 1.391s 
+                when I expand "Elements" menu ... Status.passed in 0.02124s 
+                when I click "Text Box" option ... Status.passed in 0.05772s 
+                then I see the "Text Box" page is displayed ... Status.passed in 0.0002367s 
 @scenario.end
             ----------------------------------------------------------------------------------------------------
             ]]>

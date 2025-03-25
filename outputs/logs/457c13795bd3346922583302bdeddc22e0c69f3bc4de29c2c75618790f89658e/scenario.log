@@ -1,18 +1,18 @@
-﻿15:57:35 - INFO - ----------------------------------------
-15:57:35 - INFO - STEP: I open the Tools QA page
-15:57:36 - INFO - Browser size has been changed to 1400x900
-15:57:47 - INFO - Login page opened
-15:57:47 - INFO - ----------------------------------------
-15:57:47 - INFO - STEP: I complete the user name field with testing user name
-15:57:47 - INFO - ----------------------------------------
-15:57:47 - INFO - STEP: I complete the password field with testing user password
-15:57:47 - INFO - ----------------------------------------
-15:57:47 - INFO - STEP: I click the Login button
-15:57:49 - INFO - Login page opened
-15:57:49 - INFO - ----------------------------------------
-15:57:49 - INFO - STEP: I see the "profile" page is displayed
-15:57:49 - INFO - Current url is the profile url
-15:57:49 - INFO - ----------------------------------------
-15:57:49 - INFO - STEP: I see the user name is displayed in the page
-15:57:49 - INFO - User name displayed: 'aframe'
-15:57:49 - INFO - User name is displayed in profile page
+﻿14:16:56 - INFO - ----------------------------------------
+14:16:56 - INFO - STEP: I open the Tools QA page
+14:16:59 - INFO - Browser size has been changed to 1400x900
+14:17:14 - INFO - Login page opened
+14:17:14 - INFO - ----------------------------------------
+14:17:14 - INFO - STEP: I complete the user name field with testing user name
+14:17:14 - INFO - ----------------------------------------
+14:17:14 - INFO - STEP: I complete the password field with testing user password
+14:17:14 - INFO - ----------------------------------------
+14:17:14 - INFO - STEP: I click the Login button
+14:17:16 - INFO - Login page opened
+14:17:16 - INFO - ----------------------------------------
+14:17:16 - INFO - STEP: I see the "profile" page is displayed
+14:17:16 - INFO - Current url is the profile url
+14:17:16 - INFO - ----------------------------------------
+14:17:16 - INFO - STEP: I see the user name is displayed in the page
+14:17:16 - INFO - User name displayed: 'aframe'
+14:17:16 - INFO - User name is displayed in profile page

@@ -1,18 +1,18 @@
-﻿15:57:49 - INFO - ----------------------------------------
-15:57:49 - INFO - STEP: I open the Tools QA page
-15:57:49 - INFO - Browser size has been changed to 1400x900
-15:58:12 - INFO - Login page opened
-15:58:12 - INFO - ----------------------------------------
-15:58:12 - INFO - STEP: I complete the user name field with testing user name
-15:58:12 - INFO - ----------------------------------------
-15:58:12 - INFO - STEP: I complete the password field with testing user password
-15:58:12 - INFO - ----------------------------------------
-15:58:12 - INFO - STEP: I click the Login button
-15:58:14 - INFO - Login page opened
-15:58:14 - INFO - ----------------------------------------
-15:58:14 - INFO - STEP: I expand "Elements" menu
-15:58:14 - INFO - ----------------------------------------
-15:58:14 - INFO - STEP: I click "Text Box" option
-15:58:14 - INFO - ----------------------------------------
-15:58:14 - INFO - STEP: I see the "Text Box" page is displayed
-15:58:14 - INFO - Current url is the text-box url
+﻿14:17:16 - INFO - ----------------------------------------
+14:17:16 - INFO - STEP: I open the Tools QA page
+14:17:16 - INFO - Browser size has been changed to 1400x900
+14:17:27 - INFO - Login page opened
+14:17:27 - INFO - ----------------------------------------
+14:17:27 - INFO - STEP: I complete the user name field with testing user name
+14:17:27 - INFO - ----------------------------------------
+14:17:27 - INFO - STEP: I complete the password field with testing user password
+14:17:27 - INFO - ----------------------------------------
+14:17:27 - INFO - STEP: I click the Login button
+14:17:29 - INFO - Login page opened
+14:17:29 - INFO - ----------------------------------------
+14:17:29 - INFO - STEP: I expand "Elements" menu
+14:17:29 - INFO - ----------------------------------------
+14:17:29 - INFO - STEP: I click "Text Box" option
+14:17:29 - INFO - ----------------------------------------
+14:17:29 - INFO - STEP: I see the "Text Box" page is displayed
+14:17:29 - INFO - Current url is the text-box url
